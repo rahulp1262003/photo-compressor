@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containar {
+    width: 100%;
+    height: 4rem;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containar h1 {
+    color: black;
+}
+
+.f-div {
+    margin-top: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input::file-selector-button {
+    font-weight: bold;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border:none;
+    background-color: rgb(31, 199, 255);
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+input::file-selector-button:hover {
+    background-color: rgb(0, 191, 255);
+}
+
+.uploadbtm{
+    margin: 1rem;
+    padding:0.8rem 1rem;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(178, 95, 255);
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.uploadbtm:hover{
+    background-color: blueviolet;
+}
+
+.sdiv{
+    width: 100%;
+    padding: 1rem;
+    margin-top:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloadBtn{
+    text-decoration: none;
+    margin: 1rem;
+    padding:0.8rem 1rem;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(77, 255, 0);
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.downloadBtn:hover{
+    background-color: rgb(65, 218, 0);
+}
+
+.massege{
+    /* width: 100%; */
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(154, 255, 110);
+    color: black;
+}
