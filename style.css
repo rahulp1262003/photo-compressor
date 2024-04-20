@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 .containar {
@@ -14,7 +15,7 @@
 }
 
 .containar h1 {
-    color: black;
+    color: #694bff;
 }
 
 .f-div {
@@ -32,6 +33,7 @@ input::file-selector-button {
     padding: 1rem;
     border:none;
     background-color: rgb(31, 199, 255);
+    border: 2px solid rgb(0, 153, 255);
     outline: none;
     border-radius: 8px;
     cursor: pointer;
@@ -49,6 +51,7 @@ input::file-selector-button:hover {
     border: none;
     color: white;
     background-color: rgb(178, 95, 255);
+    border: 2px solid #8400ff;
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
@@ -74,14 +77,14 @@ input::file-selector-button:hover {
     outline: none;
     border: none;
     color: white;
-    background-color: rgb(77, 255, 0);
+    background-color: rgb(0, 255, 110);
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
 }
 
 .downloadBtn:hover{
-    background-color: rgb(65, 218, 0);
+    background-color: rgb(0, 216, 61);
 }
 
 .massege{
@@ -90,6 +93,16 @@ input::file-selector-button:hover {
     padding: 1rem;
     display: flex;
     align-items: center;
-    background-color: rgb(154, 255, 110);
+    background-color: lightgreen;
+    color: black;
+}
+
+/* error message */
+.errormassege{
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 116, 116);
     color: black;
 }
